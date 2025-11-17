@@ -51,6 +51,13 @@ Projet_BDA/data/prices/
 !Projet_BDA/data/prices/download*.sh
 !Projet_BDA/data/prices/download*.ps1
 
+# ========== KEEP IMPORTANT DOCS ==========
+# Always keep markdown docs and consignes
+!**/README.md
+!**/README*.md
+!Projet_BDA/consignes/
+!Laboratory_BDA/
+
 # ========== OUTPUTS (RESULTS & ARTIFACTS) ==========
 # Exclude output directories everywhere
 **/outputs/
@@ -58,10 +65,18 @@ Projet_BDA/data/prices/
 !**/outputs/.gitkeep
 
 # ========== CSV/TSV RESULTS (Large files in outputs) ==========
+# Keep small CSV files (< 1MB) that are useful
+# Exclude large CSV files > 1MB
 *.csv
 *.tsv
 !README*.csv
 !ENV.md
+!result.csv
+!*_log.csv
+!*_metrics_log.csv
+!top10_rdd.csv
+!perfect_followers.csv
+!pmi_pairs_sample.csv
 
 # ========== LARGE LOGS ==========
 *.log
