@@ -18,7 +18,7 @@ site/setup:
 	@echo "[site/setup] Bootstrapping Quartz site"
 	@chmod +x "$(SCRIPT)"
 	@"$(SCRIPT)"
- 
+
 site/update:
 	@if [ ! -d "$(SITE_DIR)" ]; then \
 		echo "Quartz site not initialised in $(SITE_DIR). Run 'make site/setup' first."; \
@@ -26,7 +26,7 @@ site/update:
 	fi
 	@echo "[site/update] Rebuilding and deploying Quartz site"
 	@"$(SCRIPT)"
- 
+
 site/check:
 	@echo "[site/check] Running local lint checks"
 	@python3 -m pip install --user --upgrade black >/dev/null
@@ -36,7 +36,7 @@ site/check:
 		echo "No Python files under BDA/, skipping black."; \
 	fi
 	@bash -n "$(SCRIPT)"
- 
+
 site/clean:
 	@echo "[site/clean] Removing $(SITE_DIR)"
 	@rm -rf "$(SITE_DIR)"

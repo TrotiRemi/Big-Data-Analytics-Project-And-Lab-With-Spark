@@ -8,8 +8,8 @@ export PROJ="${PROJ:-bda-website}"
 export DOMAIN="${DOMAIN:-CHANGE_ME_DOMAIN}"                 # optional custom domain
 export EMAIL_DOMAIN="${EMAIL_DOMAIN:-esiee.fr,edu.esiee.fr}" # comma-separated allowed email domains
 export ACCESS_APP_NAME="${ACCESS_APP_NAME:-BDA-Course-Website}"
-export CLOUDFLARE_ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID:-85c0fac4f8e616d5acabf84066923228}"
-export CLOUDFLARE_API_TOKEN="${CLOUDFLARE_API_TOKEN:-CLOUDFLARE_API_TOKEN=wCfqEfc_7pV74kovqtydQj_B2YPX8skR4wa0kz9B}" # set or export before run
+export CLOUDFLARE_ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID:-CHANGE_ME_ACCOUNT_ID}"
+export CLOUDFLARE_API_TOKEN="${CLOUDFLARE_API_TOKEN:-CHANGE_ME_API_TOKEN}" # set or export before run
 export CF_ACCOUNT_ID="${CF_ACCOUNT_ID:-$CLOUDFLARE_ACCOUNT_ID}"
 export CF_API_TOKEN="${CF_API_TOKEN:-$CLOUDFLARE_API_TOKEN}"
  
