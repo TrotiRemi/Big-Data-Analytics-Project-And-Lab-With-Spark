@@ -101,6 +101,12 @@ dist/
 Projet_BDA/rclone-v1.71.2-windows-amd64/*.conf
 Projet_BDA/rclone-v1.71.2-windows-amd64/*.zip
 
+# ========== LARGE ZIP FILES ==========
+Laboratory_BDA/Lab_3/Assignment/labs-final-lab3-assignment-data.zip
+*.zip
+!rclone*.zip
+Projet_BDA/rclone-v1.71.2-windows-amd64/
+
 # ========== TEMPORARY FILES ==========
 tmp/
 temp/
