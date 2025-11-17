@@ -2,13 +2,12 @@
 set -euo pipefail
  
 # ====== EDIT ======
-export GH_USER="${GH_USER:-CHANGE_ME_GITHUB_USER}"    # your GitHub user/org
-export REPO="${REPO:-CHANGE_ME_QUARTZ_REPO}"
-export REPO="${REPO:-CHANGE_ME_QUARTZ_REPO}"
-export PROJ="${PROJ:-CHANGE_ME_CLOUDFLARE_PROJECT}"
+export GH_USER="${GH_USER:-TrotiRemi}"    # your GitHub user/org
+export REPO="${REPO:-Big-Data-Analytics-Project-And-Lab-With-Spark}"
+export PROJ="${PROJ:-bda-website}"
 export DOMAIN="${DOMAIN:-CHANGE_ME_DOMAIN}"                 # optional custom domain
-export EMAIL_DOMAIN="${EMAIL_DOMAIN:-CHANGE_ME_EMAIL_DOMAIN}" # comma-separated allowed email domains
-export ACCESS_APP_NAME="${ACCESS_APP_NAME:-CHANGE_ME_ACCESS_APP_NAME}"
+export EMAIL_DOMAIN="${EMAIL_DOMAIN:-esiee.fr,edu.esiee.fr}" # comma-separated allowed email domains
+export ACCESS_APP_NAME="${ACCESS_APP_NAME:-BDA-Course-Website}"
 export CLOUDFLARE_ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID:-CHANGE_ME_CF_ACCOUNT_ID}"
 export CLOUDFLARE_API_TOKEN="${CLOUDFLARE_API_TOKEN:-REPLACE_WITH_API_TOKEN}" # set or export before run
 export CF_ACCOUNT_ID="${CF_ACCOUNT_ID:-$CLOUDFLARE_ACCOUNT_ID}"
@@ -25,9 +24,9 @@ ACCESS_HOST="$PROJ.pages.dev"
 [[ -n "$DOMAIN" && "$DOMAIN" != CHANGE_ME_DOMAIN ]] && ACCESS_HOST="$DOMAIN"
  
 # ====== PATHS ======
-export SITE_DIR="$HOME/bda-website/$REPO"
-export ROOT="$HOME/bda-website"
-export SRC_TREE="$ROOT/BDA"          # source tree containing labs-final, project-final, ...
+export SITE_DIR="$HOME/course-website/$REPO"
+export ROOT="$HOME/course-website"
+export SRC_TREE="$ROOT"          # source tree containing Lab_BDA, Projet_BDA, ...
 export NOTEBOOK_SRC="${NOTEBOOK_SRC:-}"
 export NB_STATIC="$SITE_DIR/quartz/static/nb"     # notebooks HTML root (Static plugin serves at /static/nb/...)
 export NB_INDEX_MD="$SITE_DIR/content/notebooks.md"
