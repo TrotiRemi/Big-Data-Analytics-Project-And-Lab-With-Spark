@@ -1,0 +1,107 @@
+# ========== JUPYTER & PYTHON ==========
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+
+# ========== SPARK & BIG DATA ==========
+spark-warehouse/
+metastore_db/
+*.dat
+*.tar.gz
+*.zip
+!rclone*.zip
+checkpoints/
+*.parquet
+.spark.log
+
+# ========== DATA FOLDERS (LARGE FILES) ==========
+# Exclude all data directories but keep README/setup files
+Lab_BDA/*/data/
+!Lab_BDA/*/data/README*.md
+!Lab_BDA/*/data/download*.sh
+!Lab_BDA/*/data/download*.ps1
+
+Projet_BDA/data/blocks/
+Projet_BDA/data/parquet/
+Projet_BDA/data/prices/
+!Projet_BDA/data/prices/README*.md
+!Projet_BDA/data/prices/download*.sh
+!Projet_BDA/data/prices/download*.ps1
+
+# ========== OUTPUTS (RESULTS & ARTIFACTS) ==========
+# Exclude output directories everywhere
+**/outputs/
+!**/outputs/README.md
+!**/outputs/.gitkeep
+
+# ========== CSV/TSV RESULTS (Large files in outputs) ==========
+*.csv
+*.tsv
+!README*.csv
+!ENV.md
+
+# ========== LARGE LOGS ==========
+*.log
+log.csv
+*_log.csv
+*_metrics_log.csv
+
+# ========== MISC ==========
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.env
+.env.local
+rclone.conf
+*.bak
+
+# ========== CLOUDFLARE & DEPLOYMENT ==========
+public/
+site/
+quartz/
+
+# ========== NODE MODULES ==========
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ========== CLOUDFLARE/WRANGLER ==========
+wrangler.toml
+.wrangler/
+dist/
+
+# ========== RCLONE & DOWNLOADS ==========
+# Keep rclone binary but ignore config
+Projet_BDA/rclone-v1.71.2-windows-amd64/*.conf
+Projet_BDA/rclone-v1.71.2-windows-amd64/*.zip
+
+# ========== TEMPORARY FILES ==========
+tmp/
+temp/
+*.tmp
