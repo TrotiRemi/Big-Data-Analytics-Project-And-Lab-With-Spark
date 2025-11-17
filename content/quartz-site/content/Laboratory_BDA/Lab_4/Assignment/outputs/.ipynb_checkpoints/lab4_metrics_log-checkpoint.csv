@@ -1,0 +1,3 @@
+run_id,timestamp_utc,task,files_read,size_read_MB,shuffle_read_MB,shuffle_write_MB,execution_time_sec,notes
+Q1_TXT_001,2025-11-09T11:04:03.261702Z,Q1_shipped_items_TEXT,0,0.0,0.0,0.0,0.69,"date=1994-04-01, format=TXT, RDD-based, indexed filter"
+Q1_PARQUET_001,2025-11-09T11:04:04.591452Z,Q1_shipped_items_PARQUET,0,0.0,0.0,0.0,1.24,"date=1994-04-01, format=PARQUET, DataFrame-based"
