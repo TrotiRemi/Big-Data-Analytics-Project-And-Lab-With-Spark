@@ -75,9 +75,9 @@ Où :
 - **Fichier** : `outputs/pagerank_top20.csv`
 - **Plan** : `proof/plan_pr.txt`
 
-![Exercice 1 - PageRank Setup](Picture/Exo1.png)
+![Exercice 1 - PageRank Setup](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo1.png)
 
-![Exercice 1 - PageRank Computation](Picture/Exo1_2.png)
+![Exercice 1 - PageRank Computation](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo1_2.png)
 
 ### Personalized PageRank (PPR) - Multi-Source
 
@@ -104,13 +104,13 @@ Où :
 - **Fichier** : `outputs/ppr_top20.csv`
 - **Plan** : `proof/plan_ppr.txt`
 
-![Exercice 2 - PPR Multi-source](Picture/Exo2.png)
+![Exercice 2 - PPR Multi-source](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo2.png)
 
-![Exercice 2 - PPR Implementation](Picture/Exo2_2.png)
+![Exercice 2 - PPR Implementation](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo2_2.png)
 
-![Exercice 2 - PPR Results 1](Picture/Exo2_3.png)
+![Exercice 2 - PPR Results 1](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo2_3.png)
 
-![Exercice 2 - PPR Results 2](Picture/Exo2_4.png)
+![Exercice 2 - PPR Results 2](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo2_4.png)
 
 ---
 
@@ -142,9 +142,9 @@ Où :
 **Résultats** :
 - Modèles : `outputs/model_group_x/`, `outputs/model_group_y/`, `outputs/model_britney/`
 
-![Exercice 3 - SGD Trainer](Picture/Exo3.png)
+![Exercice 3 - SGD Trainer](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo3.png)
 
-![Exercice 3 - Training Details](Picture/Exo3_2.png)
+![Exercice 3 - Training Details](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo3_2.png)
 
 ### Predictor - Application du modèle
 
@@ -160,9 +160,9 @@ Où :
 **Résultats** :
 - Prédictions : `outputs/predictions_group_x/`, `outputs/predictions_group_y/`
 
-![Exercice 4 - Predictor](Picture/Exo4.png)
+![Exercice 4 - Predictor](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo4.png)
 
-![Exercice 4 - Prediction Results](Picture/Exo4_2.png)
+![Exercice 4 - Prediction Results](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo4_2.png)
 
 ### Ensemble - Average & Vote
 
@@ -180,11 +180,11 @@ Où :
 - Ensemble average : `outputs/predictions_ensemble_average/`
 - Ensemble vote : `outputs/predictions_ensemble_vote/`
 
-![Exercice 5 - Ensemble Methods](Picture/Exo5.png)
+![Exercice 5 - Ensemble Methods](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo5.png)
 
-![Exercice 5 - Ensemble Average](Picture/Exo5_2.png)
+![Exercice 5 - Ensemble Average](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo5_2.png)
 
-![Exercice 5 - Ensemble Vote](Picture/Exo5_3.png)
+![Exercice 5 - Ensemble Vote](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo5_3.png)
 
 ### Évaluation - Métriques
 
@@ -194,11 +194,11 @@ Où :
 
 **Résultats** : `outputs/metrics.md`
 
-![Exercice 6 - Evaluation Metrics](Picture/Exo6.png)
+![Exercice 6 - Evaluation Metrics](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo6.png)
 
-![Exercice 6 - ROC Curves 1](Picture/Exo6_2.png)
+![Exercice 6 - ROC Curves 1](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo6_2.png)
 
-![Exercice 6 - ROC Curves 2](Picture/Exo6_3.png)
+![Exercice 6 - ROC Curves 2](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo6_3.png)
 
 ### Shuffle Study - 10 trials
 
@@ -215,15 +215,15 @@ Où :
 - Distribution statistique des AUC
 - Conclusions sur stabilité/variance
 
-![Exercice 7 - Shuffle Study 1](Picture/Exo7.png)
+![Exercice 7 - Shuffle Study 1](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo7.png)
 
-![Exercice 7 - Shuffle Study 2](Picture/Exo7_2.png)
+![Exercice 7 - Shuffle Study 2](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo7_2.png)
 
-![Exercice 7 - Shuffle Study 3](Picture/Exo7_3.png)
+![Exercice 7 - Shuffle Study 3](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo7_3.png)
 
-![Exercice 7 - Shuffle Study 4](Picture/Exo7_4.png)
+![Exercice 7 - Shuffle Study 4](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo7_4.png)
 
-![Exercice 7 - Shuffle Study 5](Picture/Exo7_5.png)
+![Exercice 7 - Shuffle Study 5](/Laboratory_BDA/Lab_3/Assignment/Picture/Exo7_5.png)
 
 ![Exercice 7 - Shuffle Results](Picture/Exo7_Result.png)
 
