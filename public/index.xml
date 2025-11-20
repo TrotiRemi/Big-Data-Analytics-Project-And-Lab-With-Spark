@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>BDA Lab0 Starter v2</title>
+    <link>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_0/BDA_Lab0_Starter_v2</link>
+    <guid>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_0/BDA_Lab0_Starter_v2</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Mon, 17 Nov 2025 17:01:34 GMT</pubDate>
+  </item><item>
+    <title>BDA Assignment01</title>
+    <link>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Assigment/BDA_Assignment01</link>
+    <guid>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Assigment/BDA_Assignment01</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Mon, 17 Nov 2025 17:01:34 GMT</pubDate>
+  </item><item>
+    <title>ENV</title>
+    <link>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Assigment/ENV</link>
+    <guid>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Assigment/ENV</guid>
+    <description><![CDATA[ Environment Summary Python: 3.10.19 Spark: 4.0.1 PySpark: 4.0.1 Java: openjdk version “21.0.6” 2025-01-21 OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39 Spark Configuration spark.app.id = local-1761227019892 spark.app.name = BDA-AssignmentLab-01 spark.app.startTime = 1761227018590 ... ]]></description>
+    <pubDate>Mon, 17 Nov 2025 17:01:34 GMT</pubDate>
+  </item><item>
+    <title>recap</title>
+    <link>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Assigment/recap</link>
+    <guid>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Assigment/recap</guid>
+    <description><![CDATA[ Big Data Analytics — Assignment 01 - Recap Vue d’ensemble Ce notebook implémente des analyses de texte utilisant Apache Spark et PySpark sur le texte de Shakespeare. ]]></description>
+    <pubDate>Mon, 17 Nov 2025 17:01:34 GMT</pubDate>
+  </item><item>
+    <title>BDA PracticeLab01</title>
+    <link>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Practice/BDA_PracticeLab01</link>
+    <guid>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Practice/BDA_PracticeLab01</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Mon, 17 Nov 2025 17:01:34 GMT</pubDate>
+  </item><item>
+    <title>ENV</title>
+    <link>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Practice/ENV</link>
+    <guid>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Practice/ENV</guid>
+    <description><![CDATA[ Environment Summary Python: 3.10.19 Spark: 4.0.1 PySpark: 4.0.1 Java: openjdk version “21.0.6” 2025-01-21 OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39 Spark Configuration spark.app.id = local-1761204299112 spark.app.name = BDA-PracticeLab01 spark.app.startTime = 1761204297795 spa... ]]></description>
+    <pubDate>Mon, 17 Nov 2025 17:01:34 GMT</pubDate>
+  </item><item>
+    <title>Untitled</title>
+    <link>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Practice/Untitled</link>
+    <guid>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_1/Practice/Untitled</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Mon, 17 Nov 2025 17:01:34 GMT</pubDate>
+  </item><item>
+    <title>BDA Assignment02</title>
+    <link>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_2/Assigment/BDA_Assignment02</link>
+    <guid>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_2/Assigment/BDA_Assignment02</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Mon, 17 Nov 2025 17:01:34 GMT</pubDate>
+  </item><item>
+    <title>ENV</title>
+    <link>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_2/Assigment/ENV</link>
+    <guid>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_2/Assigment/ENV</guid>
+    <description><![CDATA[ Environment Summary Python: 3.10.19 Spark: 4.0.1 PySpark: 4.0.1 Java: openjdk version “21.0.6” 2025-01-21 OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39 Spark Configuration spark.app.id = local-1761818989244 spark.app.name = BDA-AssigmentLab02 spark.app.startTime = 1761818987976 sp... ]]></description>
+    <pubDate>Mon, 17 Nov 2025 17:01:34 GMT</pubDate>
+  </item><item>
+    <title>queries_and_results</title>
+    <link>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_2/Assigment/outputs/queries_and_results</link>
+    <guid>https://quartz.jzhao.xyz/Laboratory_BDA/Lab_2/Assigment/outputs/queries_and_results</guid>
+    <description><![CDATA[ My Boolean Results Query: romeo juliet AND DocIDScore18255184451690417124178541829418364202341668316703 OR DocIDScore18255184451690416924171241785418294183642023415883 Query: you me AND DocIDScore3077113725116891019001023399250193245975882930832268 OR DocIDScore30771137251168910190010302010785923399... ]]></description>
+    <pubDate>Mon, 17 Nov 2025 17:01:34 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

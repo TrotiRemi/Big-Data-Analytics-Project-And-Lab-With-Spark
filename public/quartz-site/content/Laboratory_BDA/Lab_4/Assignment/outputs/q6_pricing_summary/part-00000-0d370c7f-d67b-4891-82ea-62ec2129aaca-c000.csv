@@ -1,0 +1,2 @@
+l_returnflag,l_linestatus,count,sum_qty,sum_price,sum_disc_price,sum_charge,avg_qty,avg_price,avg_disc
+N,O,266,7050.0,9670322.450000001,9158295.638400001,9535800.642212,26.50375939849624,36354.59567669174,0.05274436090225563

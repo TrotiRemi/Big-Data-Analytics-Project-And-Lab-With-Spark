@@ -1,0 +1,12 @@
+BATCH EXECUTION SUMMARY
+Timestamp: 2025-11-09T18:20:45.721595
+Total Windows Processed: 144
+Total Alerts Triggered: 8
+Windows with SURGE: 6
+Windows with DROP: 2
+Windows with NORMAL: 135
+
+Trend Distribution:
+  SURGE: 6
+  DROP: 2
+  NORMAL: 135

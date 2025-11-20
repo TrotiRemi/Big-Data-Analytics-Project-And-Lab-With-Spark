@@ -1,0 +1,12 @@
+run_id,timestamp_utc,task,files_read,size_read_MB,shuffle_read_MB,shuffle_write_MB,execution_time_sec,notes
+PR_01,2025-11-01T11:22:11Z,PageRank_RDD,0,,0,0,35.2,"alpha=0.85, iter=10"
+PPR_01,2025-11-01T11:22:11Z,PPR_multi_source,0,,0,0,42.9,"sources=A,B,C"
+SPAM_TRAIN,2025-11-01T11:22:11Z,SpamTrainer,0,,0,0,20.4,"delta=0.1, epochs=5"
+SPAM_TRAIN_X,2025-11-01T14:43:23Z,SpamTrainer,0,,0,0,20.4,"group_x, delta=0.1, epochs=5"
+SPAM_TRAIN_Y,2025-11-01T14:43:23Z,SpamTrainer,0,,0,0,19.8,"group_y, delta=0.1, epochs=5"
+SPAM_TRAIN_BRITNEY,2025-11-01T14:43:23Z,SpamTrainer,0,,0,0,18.2,"britney set, shuffle=False"
+SPAM_PRED_X,2025-11-01T14:43:23Z,SpamPredictor,0,,0,0,4.5,predict group_x
+SPAM_PRED_ALL,2025-11-01T14:43:23Z,SpamPredictor,0,,0,0,5.1,predict all sets
+SPAM_ENSEMBLE_AVG,2025-11-01T14:43:23Z,SpamEnsemble,0,,0,0,6.2,method=average
+SPAM_ENSEMBLE_VOTE,2025-11-01T14:43:23Z,SpamEnsemble,0,,0,0,6.3,method=vote
+SPAM_SHUFFLE_STUDY,2025-11-01T14:43:23Z,SpamTrainer_Shuffled,0,,0,0,65.4,"10x shuffle runs, britney dataset"
